@@ -1,10 +1,18 @@
-import React from 'react';
+import React from 'react'
+import Link from 'next/link'
+import Head from 'next/head'
 
-const HomePage = () => ( <
-  div >
-  <
-  h1 > Welcome to my blog < /h1> < /
-  div >
-);
+import withLayout from '../components/withLayout'
 
-export default HomePage;
+const HomePage = () => (
+  <div>
+    <Head>
+      <title> Welcome to my blog </title>
+    </Head>
+    <Link href="/blog">
+      <a>Go to the recent posts</a>
+    </Link>
+  </div>
+)
+
+export default withLayout(HomePage)

@@ -6,11 +6,14 @@
   "author": "Eric MacKay <eric.mackay@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.2",
     "next": "^4.1.4",
     "react": "^16.1.1",
-    "react-dom": "^16.1.1"
+    "react-dom": "^16.1.1",
+    "react-waypoint": "^7.3.1",
+    "wpapi": "^1.1.2"
   },
   "scripts": {
-    "start": "next"
+    "start": "NODE_ENV=development node server.js"
   }
 }
