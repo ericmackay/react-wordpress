@@ -1,0 +1,16 @@
+{
+  "name": "wpapi",
+  "version": "1",
+  "main": "index.js",
+  "repository": "https://github.com/ziad-saab/wordpress-api-nextjs-theme.git",
+  "author": "Eric MacKay <eric.mackay@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^4.1.4",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "scripts": {
+    "start": "next"
+  }
+}
